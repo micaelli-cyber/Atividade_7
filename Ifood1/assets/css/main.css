@@ -1,0 +1,143 @@
+:root {
+    --color1: #eb0918;
+    --color2: #f1f0f0;
+    --color3: #3e3e3e;
+    --color4: #000000;
+    --color5: #cc1825;
+    --color6: #9eb53e;
+    --color7: #a7ed1d;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.cabecalho {
+    background-color: var(--color2);
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cabecalho__container {
+    width: 90%;
+    max-width: 1228px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__logo {
+    width: 120px;
+}
+
+.cabecalho__menu a {
+    text-decoration: none;
+    color: var(--color4);
+    margin-right: 15px;
+    font-size: 100;
+    font-weight: normal;
+}
+
+.cabecalho__botao1 {
+    color: var(--color1);
+    padding: 8px 15px;
+    font-size: 1rem;
+    font-weight: normal;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.cabecalho__botao2 {
+    background-color: var(--color1);
+    color: var(--color2);
+    padding: 8px 15px;
+    font-size: 1rem;
+    font-weight: normal;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.apresentacao {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.apresentacao__titulo {
+    font-size: 50px;
+    color: var(--color3);
+}
+
+.apresentacao__texto {
+    font-size: 20px;
+    color: var(--color3);
+}
+
+.opcoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 35px;
+}
+
+.opcoes__item,
+.opcoes__item2 {
+    width: 370px;
+    height: auto;  
+    border-radius: 5px;
+    color: var(--color2);
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+    padding: 20px;
+    gap: 1px; 
+}
+
+.opcoes__item {
+    background-color: var(--color1);
+}
+
+.opcoes__item2 {
+    background-color: var(--color7);
+}
+
+.opcao__imagem {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    margin-left: 55px; 
+}
+
+.opcao__conteudo {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: flex-start;  
+}
+
+.opcao__titulo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 120px;  
+}
+
+.opcao__botao1,
+.opcao__botao2 {
+    padding: 0.2px 3px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--color2);
+    text-decoration: none;
+    border-radius: 2px;
+    margin-top: 0px;
+}
+
+.opcao__botao1 {
+    background-color: var(--color5);
+}
+
+.opcao__botao2 {
+    background-color: var(--color6);
+}
